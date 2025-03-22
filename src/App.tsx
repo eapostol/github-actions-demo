@@ -2,9 +2,13 @@ import './App.css'
 import Calculator from './components/Calculator';
 import Advertisement from './components/Advertisement';
 
+// add a statement that will cause eslint to produce an error
+const x = 1;
+
 const companyName1: string = 'ABC Corporation';
 const productDescription1 = 'Great Product!';
 const price1 = '$19.99';
+
 
 const companyName2: string = 'XYZ Corporation';
 const productDescription2 = 'Amazing Product!';
