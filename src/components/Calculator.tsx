@@ -3,7 +3,7 @@ import { useState } from "react";
 interface CalculatorState {
   total: number;
   previousTotal: number;
-}
+};
 
 export default function Calculator() {
   const [calcState, setCalcState] = useState<CalculatorState>({ total: 0, previousTotal: 0 });
