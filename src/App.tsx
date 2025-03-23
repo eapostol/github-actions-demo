@@ -3,7 +3,8 @@ import Calculator from './components/Calculator';
 import Advertisement from './components/Advertisement';
 
 // add a statement that will cause eslint to produce an error
-const x = 1;
+// now commented out to let eslint pass its tests.
+// const x = 1;
 
 const companyName1: string = 'ABC Corporation';
 const productDescription1 = 'Great Product!';
