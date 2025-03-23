@@ -2,7 +2,8 @@ interface AdvertisementProps {
   companyName: string;
   productDescription: string;
   price: string;
-};
+}
+// removed extra semicolon in order for eslint to pass
 
 function Advertisement(props: AdvertisementProps) {
   return (
